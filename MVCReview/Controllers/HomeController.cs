@@ -15,16 +15,22 @@ namespace MVCReview.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About Sooners football";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Schedule()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "OU Football Schedule";
 
             return View();
         }
+        //public ActionResult Contact()
+        //{
+        //    ViewBag.Message = "Your contact page.";
+
+        //    return View();
+        //}
     }
 }
